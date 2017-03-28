@@ -32,7 +32,7 @@
 				//Scroll top for lab
 				$(document).ready(function() {
 					$(window).scroll(function(){
-						if ($(this).scrollTop() > 300) {
+						if ($(this).scrollTop() > 250) {
 						/* STEP 6c - sticky footer button appear */
 						$('.top').fadeIn(200);
 						} else {
